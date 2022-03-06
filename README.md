@@ -6,7 +6,7 @@ pentru a opri din rulare o comanda apasati Ctrl + C
 
 # Pentru a instala programele:
 
-1. Descarcati arhiva zip in pc
+1. Descarcati arhiva zip in pc->cand va apare tabul->selectati save file, nu open with
 2. Navigati in downloads->selectati arhiva->click dreapta->extract here
 3. Intrati in folderul extras
 4. Apasati click dreapta pe un loc gol din pagina
