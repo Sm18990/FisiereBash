@@ -10,6 +10,5 @@ sudo apt-get install manpages-dev
 
 sudo apt install codeblocks
 
-codeblocks
 
 

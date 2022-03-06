@@ -6,4 +6,4 @@ sudo apt upgrade
 
 sudo snap install zoom-client
 
-zoom-client 
+zoom-client --version

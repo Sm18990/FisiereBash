@@ -6,4 +6,3 @@ sudo apt upgrade
 
 sudo snap install discord
 
-discord
