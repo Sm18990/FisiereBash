@@ -14,4 +14,4 @@ pentru a opri din rulare o comanda apasati Ctrl + C
 6. Copiati comanda asta: sh InstallAllPrograms.sh
 7. In temrinal->click dreapta->paste
 8. Apasati enter si introduceti parola 
-9. Cand apare un propmt cu y/n mereu apasati y si apoi enter
+9. Cand apare un prompt pe linia de comanda cu y/n mereu apasati y si apoi enter
