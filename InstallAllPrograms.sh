@@ -4,11 +4,11 @@ sudo apt update
 
 sudo apt upgrade 
 
+sh InstalareSnapd.sh
+
 sh InstalareChrome.sh
 
 sh InstalareGithub.sh
-
-sh InstalareSnapd.sh
 
 sh InstallCode::Blocks.sh
 
