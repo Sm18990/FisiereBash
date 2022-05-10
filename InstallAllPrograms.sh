@@ -1,23 +1,40 @@
 !#/bin/bash/
 
-sudo apt update 
+sudo apt update
 
-sudo apt upgrade 
+sudo apt upgrade
 
-sh InstalareSnapd.sh
+sudp apt install gdebi-core
 
-sh InstalareChrome.sh
+sudo apt install gcc
 
-sh InstalareGithub.sh
+sudo apt install g++
 
-sh InstallCode::Blocks.sh
+sudo apt install snapd
 
-sh InstallDiscord.sh
+sudo snap install code --classic
 
-sh InstallGit.sh
+sudo wget https://github.com/shiftkey/desktop/releases/download/release-2.9.3-linux3/GitHubDesktop-linux-2.9.3-linux3.deb
 
-sh InstallJava.sh
+sudo gdebi GitHubDesktop-linux-2.9.3-linux3.deb
 
-sh InstallVsCode.sh
+rm  GitHubDesktop-linux-2.9.3-linux3.deb
 
-sh InstallZoom.sh 
+sudo snap install discord
+
+sudo snap install zoom-client
+
+sudo apt install ssh
+
+sudo apt install gufw
+
+sudo snap install ngrok
+
+sudo apt install default-jdk
+
+sudo apt update
+
+sudo apt install default-jre
+
+wget https://www.jetbrains.com/toolbox-app/download/download-thanks.html?platform=linux
+
