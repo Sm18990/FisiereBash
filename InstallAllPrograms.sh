@@ -38,3 +38,4 @@ sudo apt install default-jre
 
 wget https://www.jetbrains.com/toolbox-app/download/download-thanks.html?platform=linux
 
+sudo apt install virtualbox-qt
