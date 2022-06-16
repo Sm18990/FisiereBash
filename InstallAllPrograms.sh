@@ -4,15 +4,15 @@ sudo apt update
 
 sudo apt upgrade
 
-sudp apt install gdebi-core
+sudp apt install -y gdebi-core
 
-sudo apt install gcc
+sudo apt install -y gcc
 
-sudo apt install g++
+sudo apt install -y g++
 
-sudo apt install snapd
+sudo apt install -y snapd
 
-sudo snap install code --classic
+sudo snap install -y code --classic
 
 sudo wget https://github.com/shiftkey/desktop/releases/download/release-2.9.3-linux3/GitHubDesktop-linux-2.9.3-linux3.deb
 
@@ -24,7 +24,7 @@ sudo snap install discord
 
 sudo snap install zoom-client
 
-sudo apt install ssh
+sudo apt install -y ssh
 
 sudo apt install gufw
 
