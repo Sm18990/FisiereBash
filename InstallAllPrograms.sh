@@ -9,13 +9,15 @@ sudo apt-get install -y snapd
 sudo snap install code --classic
 sudo wget https://github.com/shiftkey/desktop/releases/download/release-2.9.3-linux3/GitHubDesktop-linux-2.9.3-linux3.deb
 sudo gdebi GitHubDesktop-linux-2.9.3-linux3.deb
-rm  GitHubDesktop-linux-2.9.3-linux3.deb
+rm   GitHubDesktop-linux-2.9.3-linux3.deb
 sudo apt-get install jq
 sudo apt-get install curl
 sudo apt-get install kio-gdrive
 sudo apt-get install nodejs
 sudo snap install discord
-sudo snap install zoom-client
+sudo wget https://cdn.zoom.us/prod/5.8.6.739/zoom_amd64.deb
+sudo gdebi zoom_amd64.deb
+rm   zoom_amd64.deb
 sudo apt-get install -y ssh
 sudo apt-get install gufw
 sudo snap install ngrok
