@@ -1,4 +1,4 @@
-!#/bin/bash/
+#!/bin/bash?
 
 
 sudo mv /etc/apt/preferences.d/nosnap.pref ~/Documents/nosnap.backup

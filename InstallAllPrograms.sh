@@ -1,4 +1,4 @@
-!#/bin/bash/
+#!/bin/bash?
 
 sudo apt update
 sudo apt upgrade
@@ -19,8 +19,6 @@ sudo wget https://cdn.zoom.us/prod/5.8.6.739/zoom_amd64.deb
 sudo gdebi zoom_amd64.deb
 rm   zoom_amd64.deb
 sudo apt-get install -y ssh
-sudo apt-get install gufw
-sudo snap install ngrok
 sudo apt-get install default-jdk
 sudo apt-get install default-jre
 sudo apt-get install virtualbox-qt
