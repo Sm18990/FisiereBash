@@ -27,6 +27,7 @@ sudo apt-get install -y virtualbox-qt
 sudo apt-get install -y notepadqq 
 sudo apt install -y qbittorrent
 sudo apt install -y curl 
+sudo apt install wireguard
 curl -f https://downloads.surfshark.com/linux/debian-install.sh --output surfshark-install.sh #gets the installation script
 cat surfshark-install.sh #shows script's content
 sh surfshark-install.sh #installs surfshark
