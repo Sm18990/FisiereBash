@@ -23,3 +23,7 @@ sudo apt-get install -y ssh
 sudo apt-get install default-jdk
 sudo apt-get install default-jre
 sudo apt-get install virtualbox-qt
+sudo apt install curl -y
+curl -f https://downloads.surfshark.com/linux/debian-install.sh --output surfshark-install.sh #gets the installation script
+cat surfshark-install.sh #shows script's content
+sh surfshark-install.sh #installs surfshark
