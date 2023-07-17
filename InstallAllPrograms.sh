@@ -1,10 +1,11 @@
-#!/bin/bash?
+#!/bin/bash
 
 sudo apt update
 sudo apt upgrade
-sudp apt install  gdebi-core
+sudo apt install  gdebi-core
 sudo apt-get install -y gcc
 sudo apt-get install -y g++
+sudo rm /etc/apt/preferences.d/nosnap.pref -y
 sudo apt-get install -y snapd
 sudo snap install code --classic
 sudo wget https://github.com/shiftkey/desktop/releases/download/release-2.9.3-linux3/GitHubDesktop-linux-2.9.3-linux3.deb
